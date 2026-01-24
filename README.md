@@ -62,6 +62,7 @@ SpringBoot/
 │   └── webapp/
 ├── ManagementSpringBoot.mp4        # 管理メニュー画面 動作動画
 
+---
 
 ## 画面イメージ
 
@@ -69,7 +70,7 @@ SpringBoot/
 
 - ManagementSpringBoot.mp4
 
-
+---
 
 ## 学習ポイント
 
@@ -93,12 +94,12 @@ SpringBoot/
 ```bash
 mvn spring-boot:run
 
-3. アクセス
+###3. アクセス
 
 ブラウザで以下にアクセスします。
 http://localhost:8080/
 
-工夫した点
+###4.工夫した点
 MySQLデータベース連携の実装
 
 本プロジェクトでは、Spring Boot と MySQL を連携させ、
