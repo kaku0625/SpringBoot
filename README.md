@@ -32,20 +32,14 @@ Spring Boot を用いて作成した、管理メニュー機能を中心とし�
 
 ## アーキテクチャ
 
-┌───────────────────────────────────────────┐
-│ Thymeleaf (View) │
-├───────────────────────────────────────────┤
-│ Controller (Spring MVC) │
-│ @Controller / @PostMapping │
-├───────────────────────────────────────────┤
-│ Service (Business Logic) │
-│ @Service │
-├───────────────────────────────────────────┤
-│ Repository (Data Access) │
-│ Spring Data JPA │
-├───────────────────────────────────────────┤
-│ Database │
-└───────────────────────────────────────────┘
+| レイヤー | 役割 | 使用技術 / 備考 |
+|---------|------|----------------|
+| View | 画面表示 | Thymeleaf |
+| Controller | リクエスト制御 | Spring MVC / @Controller / @PostMapping |
+| Service | 業務ロジック | @Service |
+| Repository | データアクセス | Spring Data JPA |
+| Database | データ永続化 | MySQL |
+
 
 ---
 
