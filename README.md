@@ -62,7 +62,6 @@ SpringBoot/
 │   └── webapp/
 ├── ManagementSpringBoot.mp4        # 管理メニュー画面 動作動画
 
----
 
 ## 画面イメージ
 
@@ -70,7 +69,7 @@ SpringBoot/
 
 - ManagementSpringBoot.mp4
 
----
+
 
 ## 学習ポイント
 
