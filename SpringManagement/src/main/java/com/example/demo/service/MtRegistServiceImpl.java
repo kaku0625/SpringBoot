@@ -7,7 +7,6 @@ import com.example.demo.repository.MtRestaurantRepository;
 
 import lombok.RequiredArgsConstructor;
 
-
 @Service
 @RequiredArgsConstructor
 public class MtRegistServiceImpl implements MtRegistService {
@@ -16,8 +15,9 @@ public class MtRegistServiceImpl implements MtRegistService {
 	
 	@Override
 	public void regist(MtRestaurant r) {
-		repository.add(r);
 
+		repository.add(r);
+		
 	}
 
 }
